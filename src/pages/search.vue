@@ -22,8 +22,8 @@
 </template>
 
 <script>
+
     export default {
-        
         data() {
             return {
                 searchUrl: [{
@@ -35,7 +35,7 @@
                 }],
                 keyword: '',
                 result: []
-            }
+            }  
         },
         methods: {
             onSearch (query, found) {
